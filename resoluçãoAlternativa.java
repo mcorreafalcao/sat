@@ -5,9 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class resoluçãoAlternativa {
-	// "input" gambiarra só pra testar desse jeito 
 	
 	public static void main(String[] args) {
+		// "input" gambiarra só pra testar desse jeito 
 		boolean variaveis[] = new boolean[1];
 
 		List<List<Integer>> clausulas = new ArrayList<List<Integer>>();
@@ -44,7 +44,7 @@ public class resoluçãoAlternativa {
 			}
 		}
 	}
-	// metodo auxiliar que testa as permutações
+	// metodo auxiliar que testa uma permutação dada
 	public static boolean testarPossibilidade(boolean variaveis[], List<List<Integer>> clausulas) {
 		for (int i = 0; i < clausulas.size(); i++) {
 			boolean c = false;
